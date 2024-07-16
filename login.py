@@ -22,7 +22,7 @@ if st.button("로그인"):
     st.write(str(id))
     st.write(str(gId))
     if str(id) == str(gId) & str(password) == str(gPassword):
-        st.switch_page("pages/Main.py")
+        st.switch_page("Main.py")
     else :
         st.write("일치하지 않음")
 
